@@ -5,6 +5,5 @@ import glob, os
     
 if __name__ == "__main__":
     
-    os.chdir("./ADC-API-Plots/")
-    for file in glob.glob("*.html"):
+    for file in glob.glob("./ADC-API-Plots/*.html"):
         display(HTML(filename=file))
