@@ -1,1 +1,0 @@
-[Click here to get the latest performance testing results for COVID19 repositories](https://sfu-ireceptor.github.io/ADC-API-Plots/ADC-API-Plots/COVID1_2-ADC_API_performance_2020-06-04_2020-07-05.html)
