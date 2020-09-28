@@ -1,0 +1,148 @@
+<!DOCTYPE HTML5>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ADC API Server Performance</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="css/main.css?v=2" rel="stylesheet">
+
+    <!-- IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+
+
+  <body class="logged-in">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li role="presentation">
+                    <a class="navbar-brand" href="http://ireceptor.irmacs.sfu.ca/" class="">
+                  <img src="./images/ireceptor.png">
+                    </a>
+              </li>
+              <li>
+                  <a href="index.html">
+                    iReceptor Public Archive (IPA)
+                  </a>
+              </li>
+              <li class="active">
+                  <a href="covid.html">
+                    AIRR COVID-19
+                  </a>
+              </li>
+              <li>
+                  <a href="vdj.html">
+                    VDJ Server
+                  </a>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+<div class="container home_container">
+
+  <h1>AIRR COVID-19 (ADC API Services)</h1>
+
+    <div class="row">
+      <object type="text/html" data="COVID19_hourly_performance.html" width="1100" height="600"></object>
+      <object type="text/html" data="COVID19_rear_per_rep.html" width="1100" height="600"></object>
+      <object type="text/html" data="COVID19_HEATMAP_REAR_PER_SEC.html" width="1100" height="600"></object>
+    </div>
+
+
+</div>
+
+    <footer>
+    <div class="container-fluid footer_container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="login_about_box">
+      <h3>About iReceptor</h3>
+      <h5>Our Mission</h5>
+      <p>iReceptor facilitates the curation, analysis and sharing of antibody/B-cell and T-cell receptor repertoires (Adaptive Immune Receptor Repertoire or AIRR-seq data) from multiple labs and institutions. We are committed to providing a platform for researchers to increase the value of their data through sharing with the community.  This will greatly increase the amount of data available to answer complex questions about the adaptive immune response, accelerating the development of vaccines, therapeutic antibodies against autoimmune diseases, and cancer immunotherapies.</p>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
+  <div class="login_about_box">
+    <h3>Contact</h3>
+    <p>
+      To ask questions or get involved,<br>
+      email
+      <a href="mailto:support@ireceptor.org">support@ireceptor.org</a>.
+    </p>
+  </div>
+  </div>
+</div>
+
+<div class="row credits">
+  <div class="col-md-4">
+    <h4>Funded by</h4>
+    <a href="http://www.cihr-irsc.gc.ca/" class="cihr">
+      <img src="./images/logos/cihr.png">
+    </a>
+    <a href="https://europa.eu/" class="eu">
+      <img src="./images/logos/eu.jpg">
+    </a>
+    <a href="http://www.innovation.ca" class="cfi">
+      <img src="./images/logos/cfi.png"><br />
+    </a>
+    <a href="http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/technology-innovation/bckdf" class="bckdf">
+      <img src="./images/logos/bckdf.png"><br />
+    </a>
+    <a href="http://www.canarie.ca" class="canarie">
+      <img src="./images/logos/canarie.png">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <h4>Developed and Run by</h4>
+    <a href="http://www.sfu.ca/irmacs-archive/irmacs/index.html" class="irmacs">
+      <img src="./images/logos/irmacs.png">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <h4 class="powered">Powered by</h4>
+    <a href="https://www.computecanada.ca/" class="compute_canada">
+      <img src="./images/logos/compute_canada.png">
+    </a>
+    <a href="https://www.tacc.utexas.edu/tapis" class="tapis">
+      <img src="./images/logos/tapis.png">
+    </a>
+  </div>
+</div>
+              <div class="mini_footer">
+                <p class="text-right">
+                  <a href="http://ireceptor.org/" class="external" target="_blank">iReceptor public website</a> |
+                  <a href="http://ireceptor.org/platform/doc" class="external" target="_blank">Documentation</a>
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="/js/main.js?v=31"></script>
+  </body>
+
+</html>
