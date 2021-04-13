@@ -55,11 +55,54 @@
 
   <h1>External Repositories</h1>
 
-    <div class="row">
-      <object type="text/html" data="airr-vdj_Irec-i3lab_hourly_performance.html" width="1100" height="600"></object>
-      <object type="text/html" data="airr-vdj_Irec-i3lab_rear_per_rep.html" width="1100" height="600"></object>
-      <object type="text/html" data="airr-vdj_Irec-i3lab_HEATMAP_REAR_PER_SEC.html" width="1100" height="600"></object>
+  <div class="row">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="text-toogle" data-parent="#accordion" data-toggle="collapse" href="#collapse1" aria-expanded="false">
+                <span class="text-collapsed">Expand repertoire performance</span>
+                <span class="text-expanded">Collapse repertoire performance</span>
+            </a>
+
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+              <object type="text/html" data="./repertoire/ExternalServices_TimeSeries_.html" width="1100" height="600"></object>
+
+            </div>
+          </div>
+        </div>
     </div>
+  </div>
+
+
+  <div class="row">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="text-toogle" data-parent="#accordion" data-toggle="collapse" href="#collapse2" aria-expanded="false">
+                <span class="text-collapsed">Expand rearrangement performance</span>
+                <span class="text-expanded">Collapse rearrangement performance</span>
+            </a>
+
+            </h4>
+          </div>
+
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <object type="text/html" data="./rearrangement/airr-vdj_Irec-i3lab_hourly_performance.html" width="1100" height="600"></object>
+              <object type="text/html" data="./rearrangement/airr-vdj_Irec-i3lab_rear_per_rep.html" width="1100" height="600"></object>
+              <object type="text/html" data="./rearrangement/airr-vdj_Irec-i3lab_HEATMAP_REAR_PER_SEC.html" width="1100" height="600"></object>
+
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
 
 
 </div>

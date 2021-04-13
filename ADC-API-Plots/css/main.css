@@ -15,6 +15,13 @@ h1 small {
 	font-size: 14px;
 }
 
+.text-toogle[aria-expanded=false] .text-expanded {
+  display: none;
+}
+.text-toogle[aria-expanded=true] .text-collapsed {
+  display: none;
+}
+
 .sh1 {
 	font-size: 14px;
 	font-weight: 400;
@@ -629,7 +636,7 @@ footer a:hover {
 	max-width: 140px;
 }
 
-.footer_container h3.help {
+.footer_ h3.help {
 	margin-top: 40px;
 }
 

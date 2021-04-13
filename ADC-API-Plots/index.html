@@ -52,14 +52,56 @@
 
 
 <div class="container home_container">
-
   <h1>iReceptor Public Archive (IPA) (ADC API Services)</h1>
 
-    <div class="row">
-      <object type="text/html" data="ADC_API_hourly_performance.html" width="1100" height="600"></object>
-      <object type="text/html" data="ADC_API_rear_per_rep.html" width="1100" height="600"></object>
-      <object type="text/html" data="ADC_API_HEATMAP_REAR_PER_SEC.html" width="1100" height="600"></object>
+
+  <div class="row">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="text-toogle" data-parent="#accordion" data-toggle="collapse" href="#collapse1" aria-expanded="false">
+                <span class="text-collapsed">Expand repertoire performance</span>
+                <span class="text-expanded">Collapse repertoire performance</span>
+            </a>
+
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+              <object type="text/html" data="./repertoire/iReceptor_TimeSeries_.html" width="1100" height="600"></object>
+
+            </div>
+          </div>
+        </div>
     </div>
+  </div>
+
+
+  <div class="row">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="text-toogle" data-parent="#accordion" data-toggle="collapse" href="#collapse2" aria-expanded="false">
+                <span class="text-collapsed">Expand rearrangement performance</span>
+                <span class="text-expanded">Collapse rearrangement performance</span>
+            </a>
+
+            </h4>
+          </div>
+
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <object type="text/html" data="./rearrangement/ADC_API_hourly_performance.html" width="1100" height="600"></object>
+              <object type="text/html" data="./rearrangement/ADC_API_rear_per_rep.html" width="1100" height="600"></object>
+              <object type="text/html" data="./rearrangement/ADC_API_HEATMAP_REAR_PER_SEC.html" width="1100" height="600"></object>
+
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
 
 
 </div>
@@ -143,6 +185,8 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="/js/main.js?v=31"></script>
+
+
   </body>
 
 </html>

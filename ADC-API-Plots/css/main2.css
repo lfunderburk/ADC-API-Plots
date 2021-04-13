@@ -15,6 +15,13 @@ h1 small {
 	font-size: 14px;
 }
 
+.text-toogle[aria-expanded=false] .text-expanded {
+  display: none;
+}
+.text-toogle[aria-expanded=true] .text-collapsed {
+  display: none;
+}
+
 .sh1 {
 	font-size: 14px;
 	font-weight: 400;
